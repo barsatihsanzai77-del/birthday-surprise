@@ -80,3 +80,7 @@ s.remove();
 }
 
 setInterval(shootingStar,2500);
+  function startJourney(){
+document.getElementById("welcomeScene").style.display="none";
+document.getElementById("journeyScene").style.display="block";
+  }
