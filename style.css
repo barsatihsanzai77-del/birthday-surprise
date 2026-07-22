@@ -163,3 +163,30 @@ opacity:1;
 }
 
 }
+#journeyScene{
+display:none;
+text-align:center;
+color:white;
+padding-top:80px;
+}
+
+.magic{
+font-size:60px;
+animation:float 2s infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-20px);}
+100%{transform:translateY(0);}
+}
+}
+.nextBtn{
+background:#ff4da6;
+color:white;
+border:none;
+padding:15px 30px;
+border-radius:30px;
+font-size:20px;
+cursor:pointer;
+box-shadow:0 0 20px pink;
