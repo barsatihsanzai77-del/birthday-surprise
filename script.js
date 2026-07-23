@@ -86,6 +86,8 @@ document.getElementById("journeyScene").style.display="block";
   }
 function nextSurprise(){
 
+  document.getElementById("finalScene").style.display="none";
+document.getElementById("giftScene").style.display="block";
 document.getElementById("journeyScene").style.display="none";
 
 document.getElementById("finalScene").style.display="block";
