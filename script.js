@@ -84,12 +84,10 @@ setInterval(shootingStar,2500);
 document.getElementById("welcomeScene").style.display="none";
 document.getElementById("journeyScene").style.display="block";
   }
+
 function nextSurprise(){
 
-  document.getElementById("finalScene").style.display="none";
-document.getElementById("giftScene").style.display="block";
 document.getElementById("journeyScene").style.display="none";
-
-document.getElementById("finalScene").style.display="block";
+document.getElementById("giftScene").style.display="block";
 
 }
